@@ -121,4 +121,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_RECOVERY_SWIPE := true
 
+# Flags
+COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
+
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
