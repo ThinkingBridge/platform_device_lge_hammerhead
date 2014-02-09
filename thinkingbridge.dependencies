@@ -1,0 +1,8 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "ThinkingBridge/platform_kernel_lge_hammerhead",
+        "target_path":  "kernel/lge/hammerhead",
+        "revision":     "kitkat"
+    }
+]
